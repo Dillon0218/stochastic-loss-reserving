@@ -117,10 +117,10 @@ res[, exceed995 := outcome > q995]
 save_table(res, "03_predictive_by_triangle")
 saveRDS(res, file.path(DIR_PROC, "predictive.rds"))
 
-# Width of the two paid models side by side, same triangles
-w <- dcast(res[model != "Mack incurred"], line + grcode ~ model, value.var = "sd")
+# Width of the two paid models side by side, same screened triangles
+w <- dcast(res[selected == TRUE & model != "Mack incurred"], line + grcode ~ model, value.var = "sd")
 w <- w[complete.cases(w)]
-cat(sprintf("\nODP sd / Mack sd on the same paid triangle: median %.2f (IQR %.2f-%.2f)\n",
+cat(sprintf("\nScreened sample, ODP sd / Mack sd on the same paid triangle: median %.2f (IQR %.2f-%.2f)\n",
             median(w$`ODP paid` / w$`Mack paid`),
             quantile(w$`ODP paid` / w$`Mack paid`, 0.25),
             quantile(w$`ODP paid` / w$`Mack paid`, 0.75)))
