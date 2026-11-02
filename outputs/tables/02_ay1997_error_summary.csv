@@ -1,0 +1,5 @@
+basis,method,median_error,median_abs_error
+paid,Chain ladder,0.0966656921851834,0.158178609263452
+paid,Bornhuetter-Ferguson,0.117787785985294,0.2021114225166
+incurred,Chain ladder,-0.00216348560285606,0.129254961815507
+incurred,Bornhuetter-Ferguson,0.0256658249915008,0.170054445162529

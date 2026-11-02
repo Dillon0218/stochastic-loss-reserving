@@ -1,0 +1,22 @@
+line,grcode,grname,model,selected,meyers200,reason
+CA,2208,Oklahoma Farm Grp,ODP paid,TRUE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+CA,13420,Badger Mut Ins Co,Mack paid,FALSE,TRUE,"lm object does not have a proper 'qr' component.
+ Rank zero or should not have used lm(.., qr=FALSE)."
+CA,13420,Badger Mut Ins Co,Mack incurred,FALSE,TRUE,"lm object does not have a proper 'qr' component.
+ Rank zero or should not have used lm(.., qr=FALSE)."
+CA,32301,Nichido Fire & Marine Ins Co Ltd,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+CA,35483,Daily Underwriters Of Amer,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+OL,669,Scpie Indemnity Co,Mack paid,FALSE,TRUE,argument is of length zero
+OL,669,Scpie Indemnity Co,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+OL,14915,Otsego Mut Fire Ins Co,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+OL,18686,Co-Operative Ins Co,ODP paid,TRUE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+OL,24830,Cities & Villages Mut Ins Co,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+OL,30449,Madison Mut Ins Co,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+OL,30651,Farmers Mut Of TN,ODP paid,TRUE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+OL,32301,Nichido Fire & Marine Ins Co Ltd,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+OL,33049,State Volunteer Mut Ins Co,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+OL,41068,National Fire & Cas Co,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+OL,42439,Toa-Re Ins Co Of Amer,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+WC,6408,Mutual Benefit Grp,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+WC,32875,British Amer Ins Co,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)
+WC,33499,Dorinco Rein Co,ODP paid,FALSE,TRUE,bootstrap scale parameter infinite (all simulated reserves zero)

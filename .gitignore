@@ -1,0 +1,11 @@
+# Raw CAS files: the CAS page states no redistribution licence; rebuild them
+# with scripts/download_data.sh
+data/raw/
+data/processed/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+.DS_Store

@@ -1,0 +1,8 @@
+line,name,in_database,premium_present,triangle_usable,stable_volume,stable_reins,meyers_2015
+PA,Private passenger auto,146,92,86,54,44,50
+CA,Commercial auto,158,92,81,53,46,50
+WC,Workers' compensation,132,65,56,31,25,50
+OL,Other liability,239,156,91,70,44,50
+PL,Product liability,70,34,13,9,7,0
+MM,Medical malpractice,34,14,11,8,6,0
+All,All lines,779,453,338,225,172,200
